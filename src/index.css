@@ -1,0 +1,68 @@
+@import "./public/background.css";
+
+.avatar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh / 3);
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.github-icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: -50%;
+    right: 25%;
+    cursor: pointer;
+    filter: drop-shadow(0 0 15px #fff);
+}
+
+.telegram-icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: -50%;
+    left: 25%;
+    cursor: pointer;
+    filter: drop-shadow(0 0 15px #0088cc);
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    font-family: Arial;
+    font-size: 32px;
+}
+
+.loading-container p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.transparent-text {
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
