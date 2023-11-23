@@ -15,11 +15,9 @@ function App() {
         const texts = [
             'Всем привет! ',
             'Как дела? ',
-            'Что? ',
             'Я крутой? ',
-            'aqua? Не, не слышал ',
+            'aqua.coder? Не, не слышал ',
             'Вы знали, что мы живем в матрице? ',
-            'Пока ',
         ];
         const randomIndex = Math.floor(Math.random() * texts.length);
         setRandomText(texts[randomIndex]);
@@ -87,13 +85,13 @@ function App() {
                     <img
                         src={githubIcon}
                         alt="GitHub"
-                        className="github-icon"
+                        className="github-icon github-hover"
                         onClick={openGitHubProfile}
                     />
                     <img
                         src={telegramIcon}
                         alt="Telegram"
-                        className="telegram-icon"
+                        className="telegram-icon telegram-hover"
                         onClick={openTelegramProfile}
                     />
                 </div>

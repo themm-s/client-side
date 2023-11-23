@@ -1,4 +1,4 @@
-const STAR_COLOR = '#fff';
+const STAR_COLOR = '#ffffff';
 const STAR_SIZE = 1.5;
 const STAR_MIN_SCALE = 0.1;
 const OVERFLOW_THRESHOLD = 50;
@@ -156,8 +156,8 @@ function movePointer(x, y) {
         let ox = x - pointerX,
             oy = y - pointerY;
 
-        velocity.tx += (ox / (8 * scale)) * (touchInput ? 1 : -1) * 0.02;
-        velocity.ty += (oy / (8 * scale)) * (touchInput ? 1 : -1) * 0.02;
+        velocity.tx -= (ox / (8 * scale)) * (touchInput ? 1 : -1) * 0.02;
+        velocity.ty -= (oy / (8 * scale)) * (touchInput ? 1 : -1) * 0.02;
     }
 
     pointerX = x;
