@@ -6,40 +6,40 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 16%;
+    top: 15%;
     left: 0;
     right: 0;
 }
 
 .avatar {
-    width: 176px;
-    height: 176px;
+    width: 182px;
+    height: 182px;
     border-radius: 50%;
 }
 
 .github-icon {
-    width: 64px;
-    height: 64px;
+    width: 72px;
+    height: 72px;
     position: absolute;
-    bottom: -158%;
-    right: 25%;
+    bottom: -154%;
+    right: 26%;
     cursor: pointer;
-    filter: drop-shadow(0 0 15px #ffffff);
+    filter: drop-shadow(0 0 18px #ffffff);
 }
 
 .telegram-icon {
-    width: 64px;
-    height: 64px;
+    width: 72px;
+    height: 72px;
     position: absolute;
-    bottom: -158%;
-    left: 25%;
+    bottom: -154%;
+    left: 26%;
     cursor: pointer;
-    filter: drop-shadow(0 0 15px #0088cc);
+    filter: drop-shadow(0 0 18px #0088cc);
 }
 
 .github-icon:hover,
 .telegram-icon:hover {
-    opacity: 0.5;
+    opacity: 0.7;
     transition: opacity 0.3s ease-in-out;
 }
 

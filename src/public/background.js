@@ -1,8 +1,8 @@
 const STAR_COLOR = '#ffffff';
-const STAR_SIZE = 1.5;
-const STAR_MIN_SCALE = 0.1;
+const STAR_SIZE = 1.2;
+const STAR_MIN_SCALE = 0.2;
 const OVERFLOW_THRESHOLD = 50;
-const STAR_COUNT = (window.innerWidth + window.innerHeight) / 10;
+const STAR_COUNT = (window.innerWidth + window.innerHeight) / 14;
 
 let canvas,
     context,
@@ -12,7 +12,7 @@ let canvas,
     stars = [],
     pointerX,
     pointerY,
-    velocity = { x: 0, y: 0, tx: 0, ty: 0, z: 0.0002 },
+    velocity = { x: 0, y: 0, tx: 0, ty: 0, z: 0.0003 },
     touchInput = false;
 
 function generate() {
