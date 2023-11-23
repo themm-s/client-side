@@ -18,6 +18,7 @@ function App() {
             'Я крутой? ',
             'aqua.coder? Не, не слышал ',
             'Вы знали, что мы живем в матрице? ',
+            'Как называют араба в гробу? - бумбокс ',
         ];
         const randomIndex = Math.floor(Math.random() * texts.length);
         setRandomText(texts[randomIndex]);
