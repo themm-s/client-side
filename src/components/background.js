@@ -1,6 +1,6 @@
 const STAR_COLOR = '#ffffff';
 const STAR_SIZE = 1.2;
-const STAR_MIN_SCALE = 0.2;
+const STAR_MIN_SCALE = 0.1;
 const OVERFLOW_THRESHOLD = 50;
 const STAR_COUNT = (window.innerWidth + window.innerHeight) / 14;
 
