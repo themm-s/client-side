@@ -3,7 +3,7 @@ body {
     height: 100vh;
     background-color: #000000;
     background-image: radial-gradient(circle at top right, rgba(125, 25, 150, 0.10), transparent),
-    radial-gradient(circle at 20% 80%, rgba(41, 196, 255, 0.08), transparent);
+    radial-gradient(circle at 20% 80%, rgba(41, 196, 255, 0.09), transparent);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
