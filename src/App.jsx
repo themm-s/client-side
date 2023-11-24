@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import './public/background.css';
-import { animateStars, clearStars, initStars } from "./public/background.js";
+import './components/background.css';
+import { animateStars, clearStars, initStars } from "./components/background.js";
 import avatarImage from './assets/avatar.png';
 import './index.css';
 import githubIcon from './assets/github.png';
@@ -17,7 +17,7 @@ function App() {
             'Как дела? ',
             'Я крутой? ',
             'aqua.coder? Не, не слышал ',
-            'Вы знали, что мы живем в матрице? ',
+            'А вы знали, что мы живем в матрице? ',
             'Как называют араба в гробу? - бумбокс ',
         ];
         const randomIndex = Math.floor(Math.random() * texts.length);
