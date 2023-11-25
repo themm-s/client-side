@@ -14,6 +14,19 @@ canvas {
     position: fixed;
     width: 100%;
     height: 100%;
+    /* АНИМАЦИЯ ТУТАВА */
+    animation: fadeIn 1s ease-in-out;
+    animation-delay: 3s;
+}
+
+/* И ТУТ ТОЖЕ АНИМАЦИЯ */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 a {
